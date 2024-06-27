@@ -1,0 +1,62 @@
+1.  public: can be accessed from any other code
+    private: can be accessed within the body of the class
+    protected: can be accessed within the body of the class as well as derived class
+    internal: can be accessed within the same assembly
+    protected internal: can be accessed within the same assembly or derived class
+    private protected: can be accessed within the same assembly by derived class
+    
+2.  static belongs to type rather than instance, const must be initialized at declaration
+    and cannot be changed, and readonly can only be assigned value during declaration or in
+    class constructor of the class in which it is declared.
+    
+3.  A constructor initalizes a new instance of a class. It has the same name with the class
+    and does not return anything
+    
+4.  Partial allows dividing definition of class into multiple files, making it easier to 
+    manage.
+    
+5.  A tuple is a data structure to store related elements (they can be of same or different
+    type).
+    
+6.  The 'record' keyword is used to define a reference type that provides built-in functionality
+    for value-based equality.
+    
+7.  Overloading means having multiple functions with same name but different arguments. Overriding
+    means having another function with the same name and argument in a derived child class that 
+    is executed instead of the original function
+    
+8.  Fields are variables that are declared directly. Properties are members that provide flexible
+    mechanism to access the fields.
+
+9.  By specifying a default value.
+
+10. An interface defines the name of functions that a class can do, without defining how it does it.
+    An abstract class is usually used to represent herriartical relationship between classes, but
+    an interface is usually used to represent the functions a class does. A class can inherit from
+    multiple interfaces, but just one abstract class.
+    
+11. Public
+
+12. True
+
+13. True
+
+14. True
+
+15. False
+
+16. True
+
+17. True
+
+18. True
+
+19. False
+
+20. True - possible with abstract classes
+
+21. True
+
+22. False
+
+23. True
